@@ -33,6 +33,7 @@ body {
     color: rgb(0, 0, 0);
     display: flex;
     justify-content: space-between;
+    gap: 20px;
     padding: 40px 20px;
     align-items: center;
     margin-top: 10px;
@@ -54,6 +55,20 @@ body {
     width: 250px;
     height: auto;
 }
+
+.mw {
+    width: 100px;
+    height: auto;
+    border-radius: 20%;
+
+}
+
+.one {
+    display: flex;
+    align-items: center;
+}
+
+.box {}
 
 .quotecon {
     display: flex;
