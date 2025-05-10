@@ -1,0 +1,169 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto';
+}
+
+body {
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff6f6;
+
+}
+
+.left {
+    width: 100px;
+    height: auto;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    color: #000000;
+    padding-top: 20px;
+}
+
+.aboutme {
+    /* background-color: #86909e; */
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 20px;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    /* align-items: end; */
+    padding: 40px 20px;
+    box-sizing: border-box;
+    font-size: 30px;
+    color: #1F2937;
+    font-family: "Merriweather", serif;
+}
+
+.Images {
+    width: 250px;
+    height: auto;
+}
+
+.quotecon {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.myworks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #E5E7EB; */
+    background-color: #ffffff;
+    padding: 40px 20px;
+    gap: 20px;
+    flex-grow: 1;
+}
+
+.one {
+    border: solid rgb(191, 143, 236);
+    border-radius: 20%;
+    width: 100px;
+    height: 100px;
+}
+
+.box {
+    width: 110px;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 10px;
+}
+
+.body {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+
+
+.right {
+    display: flex;
+    gap: 12px;
+    padding: 10px 40px;
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+li {
+    list-style: none;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 40px 20px;
+    gap: 20px;
+    flex-grow: 1;
+}
+
+.con {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15px;
+
+}
+
+.Resume {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    padding: 40px 20px;
+    margin-top: 10px;
+
+}
+
+.res {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
